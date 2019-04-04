@@ -1,0 +1,64 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "config": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "1221列表"
+      }
+    },
+    {
+      "path": "pages/login",
+      "config": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "登陆"
+      }
+    },
+    "pages/counter",
+    "pages/test",
+    {
+      "path": "packageA/logs",
+      "subPackage": true,
+      "config": {
+        "navigationBarTitleText": "查看启动日志"
+      }
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "订单",
+      "pagePath": "pages/test",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "订单",
+      "pagePath": "pages/test",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}
