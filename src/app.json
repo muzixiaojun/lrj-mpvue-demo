@@ -4,7 +4,7 @@
       "path": "pages/index",
       "config": {
         "enablePullDownRefresh": true,
-        "navigationBarTitleText": "1221列表"
+        "navigationBarTitleText": "首页"
       }
     },
     {
