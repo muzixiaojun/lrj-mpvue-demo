@@ -30,14 +30,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "./../static/iconfont/iconfont.css";
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: rpx(200) 0;
   box-sizing: border-box;
 }
 /* this rule will be remove */
